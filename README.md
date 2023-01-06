@@ -1,5 +1,6 @@
 #### Languages
 - swift
+	- swift basic & OOP
 
 #### Tools
 - brew
