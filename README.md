@@ -2,6 +2,7 @@
 - swift
 	- swift basic & OOP
 	- swift architecture
+	- swift lifecycle
 
 #### Tools
 - brew
