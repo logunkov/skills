@@ -20,7 +20,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 }
 ```
 
-## Swift keyboard
+## Keyboard
 
 ### Скрытие клавиатуры по тапу за пределами Text View
 ```swift
