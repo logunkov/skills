@@ -7,6 +7,9 @@
 ### saving programs
 	brew bundle dump
 
+### installing fonts
+	brew tap homebrew/cask-fonts
+	brew install --cask font-fira-code
 
 ### main
 	appcleaner  
