@@ -1,4 +1,5 @@
 # Swift architecture
+
 ## MVC (Model View Controller)
 
 `Model` Notify ---> <--- Update `Controller` Update ---> <--- User Action `View`
