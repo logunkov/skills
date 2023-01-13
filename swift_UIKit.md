@@ -30,11 +30,37 @@ override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 }
 ```
 
-### Скрываем клавиатуру нажатием на "Done"
+### Скрытие клавиатуры
 ```swift
-func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-    textField.resignFirstResponder()
-    return true
+textField.delegate = self
+    
+NotificationCenter.default.addObserver(self,
+    selector: #selector(adjustInsetForKeyboard(_:)),
+    name: UIResponder.keyboardWillHideNotification,
+    object: nil
+)
+NotificationCenter.default.addObserver(self,
+    selector: #selector(adjustInsetForKeyboard(_:)),
+    name: UIResponder.keyboardWillShowNotification,
+    object: nil)
+    
+@objc func adjustInsetForKeyboard(_ notification: NSNotification) {
+    guard let userInfo = notification.userInfo else { return }
+    
+    let keyboardFrame = (userInfo[UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+    
+    let show = (notification.name == UIResponder.keyboardWillShowNotification) ? true : false
+    
+    let bottomInset = (keyboardFrame.height + 20) * (show ? 1 : 0)
+    scrollView.contentInset.bottom = bottomInset
+    scrollView.verticalScrollIndicatorInsets.bottom = bottomInset
+}
+
+extension ViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }
 ```
     
