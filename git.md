@@ -10,9 +10,9 @@ add in file -> ZSH_THEME="agnoster"
 add in file -> prompt_context () { }
 
 	cd ~/Downloads/
-	git clone git@github.com:powerline/fonts.git
+	git clone https://github.com/powerline/fonts.git
 	cd fonts
-	./install.sh.
+	./install.sh
 	
 iTerm2 — Preferences, далее Profiles — Text и в поле Font выберите скачанный шрифт: Meslo LG или Droid Sans
 
