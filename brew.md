@@ -34,7 +34,6 @@
 	youtube-dl  
 	yt-dlp
  
-
 ### messengers
 	franz  
 	telegram  
@@ -42,11 +41,11 @@
 	whatsapp
 
 ### programming
+	cocoapods
 	git  
 	macdown  
 	xcodes  
 	zsh  
-
 
 ### appStore
 	AudioBookBinder  
@@ -54,7 +53,6 @@
 	Disk-O:  
 	Magnet  
 	San francisco symbols  
-
 
 ### other
 	coconutbattery  
@@ -64,5 +62,3 @@
 	neovim  
 	parallels-client  
 	visual-studio-code  
-
-
