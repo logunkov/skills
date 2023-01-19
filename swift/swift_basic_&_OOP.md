@@ -342,4 +342,4 @@ func name() throws { }
 func name() throws { }
 do {try name() } catch { }
 let x = try? name()
-```
+``` 

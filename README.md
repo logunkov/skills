@@ -1,10 +1,13 @@
 #### Languages
 - swift
-	- swift basic & OOP
-	- swift architecture
-	- swift lifecycle
+	- swift Basic & OOP
+	- swift Architecture
+	- swift Lifecycle
 	- swift UIKit
 	- swift URLSession
+	- swift UserDefaults
+	- swift PlistFile
+	- swift NSCache
 
 #### Tools
 - brew
