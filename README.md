@@ -1,15 +1,17 @@
-#### Languages
-- swift
-	- swift Basic & OOP
-	- swift Architecture
-	- swift Lifecycle
-	- swift UIKit
-	- swift URLSession
-	- swift UserDefaults
-	- swift PlistFile
-	- swift NSCache
 
-#### Tools
-- brew
-- git
-- terminal
+## swift  
+1. swift Architecture
+2. swift Basic & OOP
+3. swift Lifecycle
+4. swift UIKit
+5. swift SwiftUI
+6. swift URLSession
+7. swift UserDefaults
+8. swift PlistFile
+9. swift NSCache
+10. swift Core Data
+
+## Tools
+1. brew
+2. git
+3. terminal
