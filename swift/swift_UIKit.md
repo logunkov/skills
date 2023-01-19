@@ -2,7 +2,7 @@
 
 ## Alert
 ```swift
-private func wrongFormatAlert() {
+func wrongFormatAlert() {
     let alert = UIAlertController(
         title: "Wrong Format!",
         message: "Please enter your name",
@@ -78,7 +78,7 @@ extension ViewController: UITextFieldDelegate {
     
 ### Метод для отображения кнопки "Готово" на цифровой клавиатуре
 ```swift
-private func addDoneButtonTo(_ textField: UITextField) {
+func addDoneButtonTo(_ textField: UITextField) {
     
     let keyboardToolbar = UIToolbar()
     textField.inputAccessoryView = keyboardToolbar
