@@ -1,7 +1,20 @@
 # Swift UIKit
 
-## Segue
+## Alert
+```swift
+private func wrongFormatAlert() {
+    let alert = UIAlertController(
+        title: "Wrong Format!",
+        message: "Please enter your name",
+        preferredStyle: .alert)
+    
+    let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+    alert.addAction(okAction)
+    present(alert, animated: true, completion: nil)
+}
+```
 
+## Segue
 ### UIStoryboardSegue
 ```swift
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -21,7 +34,6 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 ```
 
 ## Keyboard
-
 ### Скрытие клавиатуры по тапу за пределами Text View
 ```swift
 override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
