@@ -153,7 +153,7 @@ func fetchData() {
 }
 ```
 
-# Alamofire
+# Alamofire CocoaPods
 ## Post Alamofire
 ```swift
 func postRequestWithAlamofire() {
