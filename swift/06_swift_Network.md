@@ -47,6 +47,8 @@ struct Course: Decodable {
             let course = Course(dictCourse: dictCourse)
             courses.append(course)
         }
+        
+        return courses
 
         // Version 2
         return jsonData.compactMap { Course(dictCourse: $0) }
