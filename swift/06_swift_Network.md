@@ -1,10 +1,10 @@
 # Swift URLSession
 
-## URLSessionTask `cancel, resume, suspend`
+### URLSessionTask `cancel, resume, suspend`
 * URLSessionDownloadTask `downloadTask(with:)`
 * URLSessionDataTask `dataTask(with:)` ---> URLSessionUploadTask `uploadTask(with: from:)`
 
-## URLSessionConfiguration
+### URLSessionConfiguration
 Быстро + Просто - Использование данных = URLSession Singelton `URLSession.shared.configuration`  
 Просто + Использование данных = Default `URLSession.configuration.default`  
 Dafault - Запись на диск  = Ephemeral `URLSession.configuration.ephemeral`  
@@ -12,7 +12,7 @@ Dafault + Фоновый режим  = Background`URLSession.configuration.backg
 
 # URLSession
 
-## Model
+### Model
 ```swift
 struct Course: Decodable {
     let name: String?
@@ -54,7 +54,7 @@ struct Course: Decodable {
 }
 ```
 
-## URL
+### URL
 ```swift
 class ViewController: UIViewController {
     private let imageUrl = "https://applelives.com/wp-content/uploads/2016/03/iPhone-SE-11.jpeg"
@@ -93,7 +93,7 @@ class ViewController: UIViewController {
 }
 ```
 
-## Post URLSession
+### Post URLSession
 ```swift
 func postRequest() {
     guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else { return }
@@ -126,7 +126,7 @@ func postRequest() {
 }
 ```
 
-## Get URLSession
+### Get URLSession
 ```swift
 private let jsonUrl = "https://swiftbook.ru//wp-content/uploads/api/api_courses"
 private var courses: [Course] = []
@@ -154,7 +154,7 @@ func fetchData() {
 ```
 
 # Alamofire CocoaPods
-## Post Alamofire
+### Post Alamofire
 ```swift
 func postRequestWithAlamofire() {
     guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else { return }
@@ -185,7 +185,7 @@ func postRequestWithAlamofire() {
 }
 ```
 
-## Get Alamofire
+### Get Alamofire
 ```swift
 private let jsonUrl = "https://swiftbook.ru//wp-content/uploads/api/api_courses"
 private var courses: [Course] = []
