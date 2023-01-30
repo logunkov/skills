@@ -10,6 +10,7 @@
 8. swift PlistFile
 9. swift NSCache
 10. swift Database
+11. swift Test
 
 ## Tools
 1. brew
