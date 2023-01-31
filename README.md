@@ -11,6 +11,7 @@
 9. [swift NSCache](https://github.com/logunkov/skills/blob/main/swift/09_swift_NSCache.md)
 10. [swift Database](https://github.com/logunkov/skills/blob/main/swift/10_swift_Database.md)
 11. [swift Test](https://github.com/logunkov/skills/blob/main/swift/11_swift_Test.md)
+12. [UML](https://github.com/logunkov/skills/blob/main/swift/12_UML.md)
 
 ## Tools
 1. [brew](https://github.com/logunkov/skills/blob/main/1_brew.md)
