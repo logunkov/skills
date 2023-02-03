@@ -17,3 +17,8 @@
 2. [terminal](https://github.com/logunkov/skills/blob/main/tools/2_terminal.md)
 3. [git](https://github.com/logunkov/skills/blob/main/tools/3_git.md), [image](https://github.com/logunkov/skills/blob/main/tools/3_git.jpeg)
 4. [uml](https://github.com/logunkov/skills/blob/main/tools/4_uml.md)
+
+## design patterns
+1. [behavioral](https://github.com/logunkov/skills/blob/main/design_patterns/1_behavioral.md)
+2. [creational](https://github.com/logunkov/skills/blob/main/design_patterns/2_creational.md)
+3. [structural](https://github.com/logunkov/skills/blob/main/design_patterns/3_structural.md)
