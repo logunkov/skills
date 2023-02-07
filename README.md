@@ -1,24 +1,26 @@
+## Architecture
+1. [uml](https://github.com/logunkov/skills/blob/main/architecture/uml.md)
+2. [principles OOP, POP, SOLID](https://github.com/logunkov/skills/blob/main/architecture/OOP_POP_SOLID.md)
+3. [architecture](https://github.com/logunkov/skills/blob/main/architecture/application_architecture.md)
 
-## swift  
-1. [swift Architecture](https://github.com/logunkov/skills/blob/main/swift/01_swift_Architecture.md)
-2. [swift Basic & OOP](https://github.com/logunkov/skills/blob/main/swift/02_swift_Basic_%26_OOP.md)
-3. [swift Lifecycle](https://github.com/logunkov/skills/blob/main/swift/03_swift_Lifecycle.md)
-4. [swift UIKit](https://github.com/logunkov/skills/blob/main/swift/04_swift_UIKit.md)
-5. [swift SwiftUI](https://github.com/logunkov/skills/blob/main/swift/05_swift_SwiftUI.md)
-6. [swift Network](https://github.com/logunkov/skills/blob/main/swift/06_swift_Network.md)
-7. [swift UserDefaults](https://github.com/logunkov/skills/blob/main/swift/07_swift_UserDefaults.md)
-8. [swift PlistFile](https://github.com/logunkov/skills/blob/main/swift/08_swift_PlistFile.md)
-9. [swift NSCache](https://github.com/logunkov/skills/blob/main/swift/09_swift_NSCache.md)
-10. [swift Database](https://github.com/logunkov/skills/blob/main/swift/10_swift_Database.md)
-11. [swift Test](https://github.com/logunkov/skills/blob/main/swift/11_swift_Test.md)
+## Design patterns
+1. [behavioral](https://github.com/logunkov/skills/blob/main/design_patterns/behavioral.md)
+2. [creational](https://github.com/logunkov/skills/blob/main/design_patterns/creational.md)
+3. [structural](https://github.com/logunkov/skills/blob/main/design_patterns/structural.md)
 
-## tools
-1. [brew](https://github.com/logunkov/skills/blob/main/tools/1_brew.md)
-2. [terminal](https://github.com/logunkov/skills/blob/main/tools/2_terminal.md)
-3. [git](https://github.com/logunkov/skills/blob/main/tools/3_git.md), [image](https://github.com/logunkov/skills/blob/main/tools/3_git.jpeg)
-4. [uml](https://github.com/logunkov/skills/blob/main/tools/4_uml.md)
+## Swift  
+1. [swift Basic & OOP](https://github.com/logunkov/skills/blob/main/swift/swift_Basic_%26_OOP.md)
+2. [swift Lifecycle](https://github.com/logunkov/skills/blob/main/swift/swift_Lifecycle.md)
+3. [swift UIKit](https://github.com/logunkov/skills/blob/main/swift/swift_UIKit.md)
+4. [swift SwiftUI](https://github.com/logunkov/skills/blob/main/swift/swift_SwiftUI.md)
+5. [swift Network](https://github.com/logunkov/skills/blob/main/swift/swift_Network.md)
+6. [swift UserDefaults](https://github.com/logunkov/skills/blob/main/swift/swift_UserDefaults.md)
+7. [swift PlistFile](https://github.com/logunkov/skills/blob/main/swift/swift_PlistFile.md)
+8. [swift NSCache](https://github.com/logunkov/skills/blob/main/swift/swift_NSCache.md)
+9. [swift Database](https://github.com/logunkov/skills/blob/main/swift/swift_Database.md)
+10. [swift Test](https://github.com/logunkov/skills/blob/main/swift/swift_Test.md)
 
-## design patterns
-1. [behavioral](https://github.com/logunkov/skills/blob/main/design_patterns/1_behavioral.md)
-2. [creational](https://github.com/logunkov/skills/blob/main/design_patterns/2_creational.md)
-3. [structural](https://github.com/logunkov/skills/blob/main/design_patterns/3_structural.md)
+## Tools
+1. [brew](https://github.com/logunkov/skills/blob/main/tools/brew.md)
+2. [terminal](https://github.com/logunkov/skills/blob/main/tools/terminal.md)
+3. [git](https://github.com/logunkov/skills/blob/main/tools/git.md), [image](https://github.com/logunkov/skills/blob/main/tools/git.jpeg)
