@@ -1,8 +1,8 @@
 ## Architecture
 1. [uml](https://github.com/logunkov/skills/blob/main/architecture/uml.md)
 2. [principles OOP, POP, SOLID](https://github.com/logunkov/skills/blob/main/architecture/OOP_POP_SOLID.md)
-3. [Big-0](https://github.com/logunkov/skills/blob/main/architecture/Big-O.md)
-4. [Data structure](https://github.com/logunkov/skills/blob/main/architecture/data_structure.md)
+3. [big-0](https://github.com/logunkov/skills/blob/main/architecture/Big-O.md)
+4. [data structure](https://github.com/logunkov/skills/blob/main/architecture/data_structure.md)
 5. [architecture](https://github.com/logunkov/skills/blob/main/architecture/application_architecture.md)
 
 ## Design patterns
