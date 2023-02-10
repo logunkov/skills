@@ -2,6 +2,7 @@
 1. [uml](https://github.com/logunkov/skills/blob/main/architecture/uml.md)
 2. [principles OOP, POP, SOLID](https://github.com/logunkov/skills/blob/main/architecture/OOP_POP_SOLID.md)
 3. [architecture](https://github.com/logunkov/skills/blob/main/architecture/application_architecture.md)
+4. [Big-0]()
 
 ## Design patterns
 1. [behavioral](https://github.com/logunkov/skills/blob/main/design_patterns/behavioral.md)
