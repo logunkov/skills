@@ -17,13 +17,13 @@
 
 ## Как выглядит эта нотация?
 <p align="justify"> Буква О говорит о том, что это Big-O, а в скобках описано поведение алгоритма, причем внутри их может быть все что угодно, ну или почти </p>
-<p align="justify"><font color="green">✓</font>O(n^2+n) <font style="margin-left: 145px;" color="green">✓</font>O(1)</p>
-<p align="justify"><font color="green">✓</font>O(10*2^n + 100*n^1000) <font style="margin-left: 50px;" color="green">✓</font>O(log n)</p>
-<p align="justify"><font color="green">✓</font>O(n^2+x) <font style="margin-left: 145px;" color="green">✓</font>O(n)</p>
-<p align="justify"><font color="green">✓</font>O(x+y) <font style="margin-left: 160px;" color="green">✓</font>O(nlogn)</p>
-<p align="justify"><font color="green">✓</font>O(x*y) <font style="margin-left: 163px;" color="green">✓</font>O(n^2)</p>
-<p align="justify"><font color="green">✓</font>O(100) <font style="margin-left: 160px;" color="green">✓</font>O(2^n)</p>
-<p align="justify"><font color="green">✓</font>O(5n)<font style="margin-left: 170px;" color="green">✓</font>O(n!)</p>
+<p align="justify"><font color="green">✓ </font>O(n^2+n) <font style="margin-left: 145px;" color="green">✓ </font>O(1)</p>
+<p align="justify"><font color="green">✓ </font>O(10*2^n + 100*n^1000) <font style="margin-left: 50px;" color="green">✓ </font>O(log n)</p>
+<p align="justify"><font color="green">✓ </font>O(n^2+x) <font style="margin-left: 145px;" color="green">✓ </font>O(n)</p>
+<p align="justify"><font color="green">✓ </font>O(x+y) <font style="margin-left: 160px;" color="green">✓ </font>O(nlogn)</p>
+<p align="justify"><font color="green">✓ </font>O(x*y) <font style="margin-left: 163px;" color="green">✓ </font>O(n^2)</p>
+<p align="justify"><font color="green">✓ </font>O(100) <font style="margin-left: 160px;" color="green">✓ </font>O(2^n)</p>
+<p align="justify"><font color="green">✓ </font>O(5n)<font style="margin-left: 170px;" color="green"> ✓</font>O(n!)</p>
 
 ## Неважная сложность
 <p align="justify"><font color="green">✓</font>O(100) = O(1)</p>
