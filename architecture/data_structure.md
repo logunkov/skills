@@ -3,24 +3,24 @@
 <p align="justify"> Стандартная библиотека Swift поставляется с тремя основными структурами данных - <b>Array</b>, <b>Dictionary</b> и <b>Sет</b>, каждая из которых имеет свой набор оптимизаций, плюсов и минусов.</p>
 
 ## Array
-<p align="justify"><font color="green">✓</font> Доступ - <b>0 (1)</b>: чтение по индексу.</p>
-<p align="justify"><font color="green">✓</font> Поиск - <b>O(n)</b>: проходим по всему массиву и ищем подходящий элемент.</p>
-<p align="justify"><font color="green">✓</font> Вставка - <b>O(n)</b>: если в начало, то надо сдвигать массив, если в конец, то надо переносить массив в новую память.</p>
-<p align="justify"><font color="green">✓</font> Удаление - <b>O(n)</b>: при удалении надо сдвигать элементы.</p>
+<p align="justify"><font color="green">✔️</font> Доступ - <b>0 (1)</b>: чтение по индексу.</p>
+<p align="justify"><font color="green">✔️</font> Поиск - <b>O(n)</b>: проходим по всему массиву и ищем подходящий элемент.</p>
+<p align="justify"><font color="green">✔️</font> Вставка - <b>O(n)</b>: если в начало, то надо сдвигать массив, если в конец, то надо переносить массив в новую память.</p>
+<p align="justify"><font color="green">✔️</font> Удаление - <b>O(n)</b>: при удалении надо сдвигать элементы.</p>
 
 ## Set
-<p align="justify"><font color="green">✓</font> Поиск - <b>0 (1)</b>: поиск по хеш-числу.</p>
-<p align="justify"><font color="green">✓</font> Вставка - <b>0 (1)</b>: поиск по хеш-числу.</p>
-<p align="justify"><font color="green">✓</font> Удаление - <b>0 (1)</b>: поиск по хеш-числу.</p>
+<p align="justify"><font color="green">✔️</font> Поиск - <b>0 (1)</b>: поиск по хеш-числу.</p>
+<p align="justify"><font color="green">✔️</font> Вставка - <b>0 (1)</b>: поиск по хеш-числу.</p>
+<p align="justify"><font color="green">✔️</font> Удаление - <b>0 (1)</b>: поиск по хеш-числу.</p>
 
 ### Как работает Set:
 <p align="justify">Элемент → Хеш-функция → Хеш-код → Адрес памяти элемента.</p>
 <p align="justify">Нам доступны из коробки методы нахождения пересечения множеств, исключений, вычитания, а еще взаимосвязи и равенства множеств, чем очень удобно пользоваться на практике.</p>
 
 ## Dictionary
-<p align="justify"><font color="green">✓</font> Поиск - <b>0 (1)</b> поиск по хеш-числу.</p>
-<p align="justify"><font color="green">✓</font> Вставка - <b>0 (1)</b> поиск по хеш-числу.</p>
-<p align="justify"><font color="green">✓</font> Удаление - <b>0 (1)</b> поиск по хеш-числу.</p>
+<p align="justify"><font color="green">✔️</font> Поиск - <b>0 (1)</b> поиск по хеш-числу.</p>
+<p align="justify"><font color="green">✔️</font> Вставка - <b>0 (1)</b> поиск по хеш-числу.</p>
+<p align="justify"><font color="green">✔️</font> Удаление - <b>0 (1)</b> поиск по хеш-числу.</p>
 
 ### Как работает Dictionary:
 <p align="justify">Ключ → Хеш-функция → Хеш-код → Индекс массива.</p>
@@ -29,20 +29,20 @@
 ## Реализация связанного списка
 <p align="justify">Что, если хочется стабильного порядка перебора как в массиве и преимуществ множеств.</p>
 <p align="justify">Такой структурой данных является <b>Связный список</b>.</p>
-<p align="justify"><font color="green">✓</font> Операции, проверяющие список на пустоту и сообщающие его размерность.</p>
-<p align="justify"><font color="green">✓</font> Три операции добавления объекта в список (в начало, конец или внутрь после любого (п-го) элемента списка).</p>
-<p align="justify"><font color="green">✓</font> Операция поиска элемента в списке.</p>
-<p align="justify"><font color="green">✓</font> Три операции удаления элемента из списка (первого, последнего и указанного, если он был найден).</p>
+<p align="justify"><font color="green">✔️</font> Операции, проверяющие список на пустоту и сообщающие его размерность.</p>
+<p align="justify"><font color="green">✔️</font> Три операции добавления объекта в список (в начало, конец или внутрь после любого (п-го) элемента списка).</p>
+<p align="justify"><font color="green">✔️</font> Операция поиска элемента в списке.</p>
+<p align="justify"><font color="green">✔️</font> Три операции удаления элемента из списка (первого, последнего и указанного, если он был найден).</p>
 
 ## Реализация стека на основе массива
 <p align="justify">Стек — это набор данных, в который можно добавлять или удалять элементы только с конца.</p>
 <p align="justify">Элементы в стеке не доступны случайным образом.</p>
 <p align="justify"><b>LIFO</b> (последним пришел, первым ушел).</p>
-<p align="justify"><font color="green">✓</font> <b>push</b>: добавляет элемент в конец стека.</p>
-<p align="justify"><font color="green">✓</font> <b>peek</b>: возвращает последний элемент стека.</p>
-<p align="justify"><font color="green">✓</font> <b>pop</b>: возвращает последний элемент и удаляет его из стека.</p>
-<p align="justify"><font color="green">✓</font> <b>isEmpty</b>: возвращает логическое значение, определяющее, пуст ли стек.</p>
-<p align="justify"><font color="green">✓</font> <b>count</b>: возвращает количество элементов в стеке.</p>
+<p align="justify"><font color="green">✔️</font> <b>push</b>: добавляет элемент в конец стека.</p>
+<p align="justify"><font color="green">✔️</font> <b>peek</b>: возвращает последний элемент стека.</p>
+<p align="justify"><font color="green">✔️</font> <b>pop</b>: возвращает последний элемент и удаляет его из стека.</p>
+<p align="justify"><font color="green">✔️</font> <b>isEmpty</b>: возвращает логическое значение, определяющее, пуст ли стек.</p>
+<p align="justify"><font color="green">✔️</font> <b>count</b>: возвращает количество элементов в стеке.</p>
 
 ## Реализация очереди на основе массива
 <p align="justify">Элементы в очереди недоступны случайным образом.</p>
@@ -50,11 +50,11 @@
 <p align="justify"><b>FIFO</b> (первым пришел, первым ушел).</p>
 
 # Sort
-<p align="justify"><font color="green">✓</font> Bubble Sort - O(n^2)</p>
-<p align="justify"><font color="green">✓</font> Insertion Sort - O(n^2)</p>
-<p align="justify"><font color="green">✓</font> Selection Sort - O(n^2)</p>
-<p align="justify"><font color="green">✓</font> Binary Sort - O(log n)</p>
-<p align="justify"><font color="green">✓</font> Quick Sort - O(n log n).</p>
+<p align="justify"><font color="green">✔️</font> Bubble Sort - O(n^2)</p>
+<p align="justify"><font color="green">✔️</font> Insertion Sort - O(n^2)</p>
+<p align="justify"><font color="green">✔️</font> Selection Sort - O(n^2)</p>
+<p align="justify"><font color="green">✔️</font> Binary Sort - O(log n)</p>
+<p align="justify"><font color="green">✔️</font> Quick Sort - O(n log n).</p>
 
 ## Bubble Sort
 <p align="justify">Это простой алгоритм сортировки, в котором циклом многократно проходим через список для сортировки, сравниваем каждую пару соседних элементов и меняем их местами, если они находятся в неправильном порядке.</p>

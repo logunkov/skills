@@ -1,10 +1,10 @@
 # Big-O
 ## Для чего надо знать о Big-O?
 <p align="justify"> Big-О позволяет оценивать алгоритмы по времени их работы и по потреблению ими памяти, причем рассматривает всегда худший вариант.</p>
-<p align="justify"><font color="green">✓</font> Big-О позволяет уметь видеть и исправлять неоптимальный код.</p>
-<p align="justify"><font color="green">✓</font> Если вы не знаете что такое Big-O, то вы не понимаете, что вы написали.</p>
-<p align="justify"><font color="green">✓</font> Без Big-O не обходится ни один проект и ни ОДНО собеседование.</p>
-<p align="justify"><font color="green">✓</font> Без применения Big-O на практике, производительность вашей системы очень сильно страдает.</p>
+<p align="justify"><font color="green">✔️</font> Big-О позволяет уметь видеть и исправлять неоптимальный код.</p>
+<p align="justify"><font color="green">✔️</font> Если вы не знаете что такое Big-O, то вы не понимаете, что вы написали.</p>
+<p align="justify"><font color="green">✔️</font> Без Big-O не обходится ни один проект и ни ОДНО собеседование.</p>
+<p align="justify"><font color="green">✔️</font> Без применения Big-O на практике, производительность вашей системы очень сильно страдает.</p>
 
 ## Виды оценок
 <p align="justify"><font color="green">Big-O</font> (Big O) обозначает верхнюю границу сложности алгоритма. Это идеальный инструмент для поиска худшего варианта.</p>
@@ -17,23 +17,23 @@
 
 ## Как выглядит эта нотация?
 <p align="justify"> Буква О говорит о том, что это Big-O, а в скобках описано поведение алгоритма, причем внутри их может быть все что угодно, ну или почти </p>
-<p align="justify"><font color="green">✓ </font>O(n^2+n) <font style="margin-left: 145px;" color="green">✓ </font>O(1)</p>
-<p align="justify"><font color="green">✓ </font>O(10*2^n + 100*n^1000) <font style="margin-left: 50px;" color="green">✓ </font>O(log n)</p>
-<p align="justify"><font color="green">✓ </font>O(n^2+x) <font style="margin-left: 145px;" color="green">✓ </font>O(n)</p>
-<p align="justify"><font color="green">✓ </font>O(x+y) <font style="margin-left: 160px;" color="green">✓ </font>O(nlogn)</p>
-<p align="justify"><font color="green">✓ </font>O(x*y) <font style="margin-left: 163px;" color="green">✓ </font>O(n^2)</p>
-<p align="justify"><font color="green">✓ </font>O(100) <font style="margin-left: 160px;" color="green">✓ </font>O(2^n)</p>
-<p align="justify"><font color="green">✓ </font>O(5n)<font style="margin-left: 170px;" color="green"> ✓</font>O(n!)</p>
+<p align="justify"><font color="green">✔️ </font>O(n^2+n) <font style="margin-left: 145px;" color="green">✔️ </font>O(1)</p>
+<p align="justify"><font color="green">✔️ </font>O(10*2^n + 100*n^1000) <font style="margin-left: 50px;" color="green">✔️ </font>O(log n)</p>
+<p align="justify"><font color="green">✔️ </font>O(n^2+x) <font style="margin-left: 145px;" color="green">✔️ </font>O(n)</p>
+<p align="justify"><font color="green">✔️ </font>O(x+y) <font style="margin-left: 160px;" color="green">✔️ </font>O(nlogn)</p>
+<p align="justify"><font color="green">✔️ </font>O(x*y) <font style="margin-left: 163px;" color="green">✔️ </font>O(n^2)</p>
+<p align="justify"><font color="green">✔️ </font>O(100) <font style="margin-left: 160px;" color="green">✔️ </font>O(2^n)</p>
+<p align="justify"><font color="green">✔️ </font>O(5n)<font style="margin-left: 170px;" color="green"> ✔️</font>O(n!)</p>
 
 ## Неважная сложность
-<p align="justify"><font color="green">✓</font>O(100) = O(1)</p>
-<p align="justify"><font color="green">✓</font>O(5n) = O(n)</p>
-<p align="justify"><font color="green">✓</font>O(n^2+n) = O(n^2)</p>
-<p align="justify"><font color="green">✓</font>O(n + log n) = O(n)</p>
-<p align="justify"><font color="green">✓</font>O(10*2^n+100*n^1000) = O(2^n+n^1000) = O(2^n)</p>
-<p align="justify"><font color="green">✓</font>O(n^2+x) = O(n^2+x)</p>
-<p align="justify"><font color="green">✓</font>O(x+y) =0(x+y)</p>
-<p align="justify"><font color="green">✓</font>O(x*y) = O(x*y)</p>
+<p align="justify"><font color="green">✔️</font>O(100) = O(1)</p>
+<p align="justify"><font color="green">✔️</font>O(5n) = O(n)</p>
+<p align="justify"><font color="green">✔️</font>O(n^2+n) = O(n^2)</p>
+<p align="justify"><font color="green">✔️</font>O(n + log n) = O(n)</p>
+<p align="justify"><font color="green">✔️</font>O(10*2^n+100*n^1000) = O(2^n+n^1000) = O(2^n)</p>
+<p align="justify"><font color="green">✔️</font>O(n^2+x) = O(n^2+x)</p>
+<p align="justify"><font color="green">✔️</font>O(x+y) =0(x+y)</p>
+<p align="justify"><font color="green">✔️</font>O(x*y) = O(x*y)</p>
 
 ## Базовые Big-O
 В разработке это наиболее часто встречаемые варианты Big-O
@@ -365,11 +365,11 @@ CalcBigO().printBigO(n: 20)
 ```
 
 ## Итого
-<p align="justify"><font color="green">✓</font> Получение по индексу в массиве, или по ключу в словаре в нотации Big-O это будет O(1).<p align="justify"><font color="green">✓</font> Перебор коллекции это O(n).</p>
-<p align="justify"><font color="green">✓</font> Два вложенных цикла приводят к сложности O(n^2), три вложенных цикла приводят к сложности O(n^3) и так далее.</p>
-<p align="justify"><font color="green">✓</font> Алгоритм со стратегией "Разделяй и Властвуй" (Divide and Conquer), где на каждой итерации берётся половина элементов, сложность всегда будет включать O(logn).</p>
-<p align="justify"><font color="green">✓</font> Алгоритмы с экспоненциальным временем выполнения O(2^n) часто являются рекурсивными алгоритмами.</p>
-<p align="justify"><font color="green">✓</font> Факториальная временная сложность — наихудший тип временной сложности, потому что количество операций уже не описать Double при наборе данных более 20 элементов.</p>
+<p align="justify"><font color="green">✔️</font> Получение по индексу в массиве, или по ключу в словаре в нотации Big-O это будет O(1).<p align="justify"><font color="green">✔️</font> Перебор коллекции это O(n).</p>
+<p align="justify"><font color="green">✔️</font> Два вложенных цикла приводят к сложности O(n^2), три вложенных цикла приводят к сложности O(n^3) и так далее.</p>
+<p align="justify"><font color="green">✔️</font> Алгоритм со стратегией "Разделяй и Властвуй" (Divide and Conquer), где на каждой итерации берётся половина элементов, сложность всегда будет включать O(logn).</p>
+<p align="justify"><font color="green">✔️</font> Алгоритмы с экспоненциальным временем выполнения O(2^n) часто являются рекурсивными алгоритмами.</p>
+<p align="justify"><font color="green">✔️</font> Факториальная временная сложность — наихудший тип временной сложности, потому что количество операций уже не описать Double при наборе данных более 20 элементов.</p>
 
 
 
