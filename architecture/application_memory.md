@@ -94,7 +94,7 @@
 
 <p align="justify">Компилятор Swift может продвигать reference type для размещения в стеке, когда их размер фиксирован или время жизни может быть предсказано. Эта оптимизация происходит на этапе генерации SIL (Swift Intermediate Language)</p>
 
-<p align="justify"><b>Value type</b> может размещаться в <b>hеар</b>, когда:</p>
+<p align="justify"><b>Value type</b> может размещаться в <b>hеар</b></p>
 <p align="justify">1. При реализации протокола</p>
 <p align="justify">2. При смешивании <b>value type</b> и <b>reference type</b></p>
 <p align="justify">3. <b>Generi</b>c c <b>value type</b></p>
@@ -134,7 +134,7 @@
 <p align="justify"><font>✔️ </font>С помощью <b>didReceiveMemoryWarningNotification</b> во все зарегистрированные <b>observers</b>.</p>
 <p align="justify"><font>✔️ </font>Каждая из <b>dispatch queues</b> получает <b>warning</b> типа <b>DISPATCH_SOURCE_TYPE_MEMORYPRESSURE</b>.</p>
 
-<p align="justify">Если системе не хватает свободной памяти и она не может восстановить её, завершив приостановленные приложения, <b>UIKit</b> отправляет предупреждение о нехватке памяти работающим приложениям..</p>
+<p align="justify">Если системе не хватает свободной памяти и она не может восстановить её, завершив приостановленные приложения, <b>UIKit</b> отправляет предупреждение о нехватке памяти работающим приложениям.</p>
 
 ## EXC BAD ACCESS
 <p align="justify"><font>✔️ </font>Использование памяти, которая была освобождена.</p>

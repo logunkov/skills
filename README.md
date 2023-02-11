@@ -3,7 +3,8 @@
 2. [principles OOP, POP, SOLID](https://github.com/logunkov/skills/blob/main/architecture/OOP_POP_SOLID.md)
 3. [big-0](https://github.com/logunkov/skills/blob/main/architecture/Big-O.md)
 4. [data structure](https://github.com/logunkov/skills/blob/main/architecture/data_structure.md)
-5. [architecture](https://github.com/logunkov/skills/blob/main/architecture/application_architecture.md)
+5. [application memory](https://github.com/logunkov/skills/blob/main/architecture/application_memory.md)
+6. [architecture](https://github.com/logunkov/skills/blob/main/architecture/application_architecture.md)
 
 ## Design patterns
 1. [behavioral](https://github.com/logunkov/skills/blob/main/design_patterns/behavioral.md)
