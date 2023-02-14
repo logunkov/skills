@@ -1,15 +1,16 @@
 ## Architecture
 1. [uml](https://github.com/logunkov/skills/blob/main/architecture/uml.md)
-2. [principles OOP, POP, SOLID](https://github.com/logunkov/skills/blob/main/architecture/OOP_POP_SOLID.md)
+2. [OOP, POP, SOLID](https://github.com/logunkov/skills/blob/main/architecture/OOP_POP_SOLID.md)
 3. [big-0](https://github.com/logunkov/skills/blob/main/architecture/Big-O.md)
 4. [data structure](https://github.com/logunkov/skills/blob/main/architecture/data_structure.md)
 5. [application memory](https://github.com/logunkov/skills/blob/main/architecture/application_memory.md)
 6. [architecture](https://github.com/logunkov/skills/blob/main/architecture/application_architecture.md)
 
 ## Design patterns
-1. [behavioral](https://github.com/logunkov/skills/blob/main/design_patterns/behavioral.md)
-2. [creational](https://github.com/logunkov/skills/blob/main/design_patterns/creational.md)
-3. [structural](https://github.com/logunkov/skills/blob/main/design_patterns/structural.md)
+1. [template relationships](https://github.com/logunkov/skills/blob/main/design_patterns/Template_Relationships.pdf)
+2. [behavioral](https://github.com/logunkov/skills/blob/main/design_patterns/behavioral.md)
+3. [creational](https://github.com/logunkov/skills/blob/main/design_patterns/creational.md)
+4. [structural](https://github.com/logunkov/skills/blob/main/design_patterns/structural.md)
 
 ## Swift  
 1. [swift Basic & OOP](https://github.com/logunkov/skills/blob/main/swift/swift_Basic_%26_OOP.md)

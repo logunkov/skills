@@ -1,36 +1,32 @@
 # Creational Design Patterns
+<p align="justify">Список порождающих паттернов проектирования, которые отвечают за удобное и безопасное создание новых объектов или даже целых семейств объектов.</p>
+
+## Simple Factory
+<p align="justify">Это класс, в котором есть один метод с большим условным оператором, выбирающим создаваемый продукт. Этот метод вызывают с неким параметром, по которому определяется какой из продуктов нужно создать. У простой фабрики, обычно, нет подклассов.</p>
+
+![](resources/Simple_Factory.png)
+
+## Factory Method
+<p align="justify">Определяет общий интерфейс для создания объектов в суперклассе, позволяя подклассам изменять тип создаваемых объектов.</p>
+
+![](resources/Factory_Method.png)
 
 ## Abstract Factory
+<p align="justify">Позволяет создавать семейства связанных объектов, не привязываясь к конкретным классам создаваемых объектов.</p>
+
 ![](resources/Abstract_Factory.png)
-## Adapter
-![](resources/Adapter.png)
+
 ## Builder
+<p align="justify">Позволяет создавать сложные объекты пошагово. Строитель даёт возможность использовать один и тот же код строительства для получения разных представлений объектов.</p>
+
 ![](resources/Builder.png)
-## Chain of responsibility
-![](resources/Chain_of_responsibility.png)
-## Command
-![](resources/Command.png)
-## Composite
-![](resources/Composite.png)
-## Decorator
-![](resources/Decorator.png)
-## Facade
-![](resources/Facade.png)
-## Factory Method
-![](resources/Factory_Method.png)
-## Iterator
-![](resources/Iterator.png)
-## Observer
-![](resources/Observer.png)
-## Proxy
-![](resources/Proxy.png)
-## Simple Factory
-![](resources/Simple_Factory.png)
+
+## Prototype
+<p align="justify">Позволяет копировать объекты, не вдаваясь в подробности их реализации.</p>
+
+![](resources/Prototype.png)
+
 ## Singleton
+<p align="justify">Гарантирует, что у класса есть только один экземпляр, и предоставляет к нему глобальную точку доступа.</p>
+
 ![](resources/Singleton.png)
-## State
-![](resources/State.png)
-## Strategy
-![](resources/Strategy.png)
-## Template Method
-![](resources/Template_Method.png)
