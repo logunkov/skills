@@ -17,23 +17,30 @@
 
 ## Как выглядит эта нотация?
 <p align="justify"> Буква О говорит о том, что это Big-O, а в скобках описано поведение алгоритма, причем внутри их может быть все что угодно, ну или почти </p>
-<p align="justify"><font>✔️ </font>O(n^2+n) <font style="margin-left: 145px;">✔️ </font>O(1)</p>
-<p align="justify"><font>✔️ </font>O(10*2^n + 100*n^1000) <font style="margin-left: 50px;">✔️ </font>O(log n)</p>
-<p align="justify"><font>✔️ </font>O(n^2+x) <font style="margin-left: 145px;">✔️ </font>O(n)</p>
-<p align="justify"><font>✔️ </font>O(x+y) <font style="margin-left: 160px;">✔️ </font>O(nlogn)</p>
-<p align="justify"><font>✔️ </font>O(x*y) <font style="margin-left: 163px;">✔️ </font>O(n^2)</p>
-<p align="justify"><font>✔️ </font>O(100) <font style="margin-left: 160px;">✔️ </font>O(2^n)</p>
-<p align="justify"><font>✔️ </font>O(5n)<font style="margin-left: 170px;"> ✔️</font>O(n!)</p>
+<p><font>✔️ </font>O(n^2+n)</p>
+<p><font>✔️ </font>O(10*2^n + 100*n^1000)</p>
+<p><font>✔️ </font>O(n^2+x)</p>
+<p><font>✔️ </font>O(x+y)</p>
+<p><font>✔️ </font>O(x*y)</p>
+<p><font>✔️ </font>O(100)</p>
+<p><font><font>✔️ </font>O(5n)</p>
+<p><font>✔️ </font>O(1)</p>
+<p><font>✔️ </font>O(log n)</p>
+<p><font>✔️ </font>O(n)</p>
+<p><font>✔️ </font>O(nlogn)</p>
+<p><font>✔️ </font>O(n^2)</p>
+<p><font>✔️ </font>O(2^n)</p>
+<p><font>✔️</font>O(n!)</p>
 
 ## Неважная сложность
-<p align="justify"><font>✔️</font>O(100) = O(1)</p>
-<p align="justify"><font>✔️</font>O(5n) = O(n)</p>
-<p align="justify"><font>✔️</font>O(n^2+n) = O(n^2)</p>
-<p align="justify"><font>✔️</font>O(n + log n) = O(n)</p>
-<p align="justify"><font>✔️</font>O(10*2^n+100*n^1000) = O(2^n+n^1000) = O(2^n)</p>
-<p align="justify"><font>✔️</font>O(n^2+x) = O(n^2+x)</p>
-<p align="justify"><font>✔️</font>O(x+y) =0(x+y)</p>
-<p align="justify"><font>✔️</font>O(x*y) = O(x*y)</p>
+<p><font>✔️</font>O(100) = O(1)</p>
+<p><font>✔️</font>O(5n) = O(n)</p>
+<p><font>✔️</font>O(n^2+n) = O(n^2)</p>
+<p><font>✔️</font>O(n + log n) = O(n)</p>
+<p><font>✔️</font>O(10*2^n+100*n^1000) = O(2^n+n^1000) = O(2^n)</p>
+<p><font>✔️</font>O(n^2+x) = O(n^2+x)</p>
+<p><font>✔️</font>O(x+y) =0(x+y)</p>
+<p><font>✔️</font>O(x*y) = O(x*y)</p>
 
 ## Базовые Big-O
 В разработке это наиболее часто встречаемые варианты Big-O
