@@ -5,7 +5,8 @@
 4. [data structure](https://github.com/logunkov/skills/blob/main/architecture/data_structure.md)
 5. [application memory](https://github.com/logunkov/skills/blob/main/architecture/application_memory.md)
 6. [application architecture](https://github.com/logunkov/skills/blob/main/architecture/application_architecture.md)
-7. [antipatterns](https://github.com/logunkov/skills/blob/main/architecture/antipatterns.md)
+7. [strict typing](https://github.com/logunkov/skills/blob/main/architecture/strict_typing.md)
+8. [antipatterns](https://github.com/logunkov/skills/blob/main/architecture/antipatterns.md)
 
 ## Design patterns
 1. [template relationships](https://github.com/logunkov/skills/blob/main/design_patterns/Template_Relationships.pdf)
