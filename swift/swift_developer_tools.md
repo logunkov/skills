@@ -1,6 +1,6 @@
 # Developer tools
 
-## [Swift Style Guide](https://google.github.io/swift/)
+## [Swift Style Guide](https://github.com/logunkov/skills/blob/main/swift/swift_Style_Guide.md)
 #### Читаемость кода:
 <p align="justify"><font>✔️ </font>Код должен быть простым и придерживаться правилам оформления, принятым в вашей команде - SSG.</p>
 <p align="justify"><font>✔️ </font>Большую часть времени разработчики тратят не на рисование UML-диаграмм, не на проработку архитектуры, не на кодирование и не на программирование.</p>
@@ -13,7 +13,14 @@
 ## [SwiftLint](https://github.com/realm/SwiftLint)
 <p align="justify"><b>SwiftLint</b> — это утилита от разработчиков Realm для автоматической проверки Swift-кода. Утилита содержит набор правил, основанных на GitHub's Swift Style Guide и здравом смысле. Разумеется можно добавлять свои правила.</p>
 
-[File: swiftLint](resources/swiftlint.yml)
+[File: swiftLint](resources/swiftlint.yml) 
+
+{% file src="resources/swiftlint.yml/plain;base64,Cg==" name="resources/swiftlint.yml" %}
+
+[File: swiftLint](resources/swiftlint.yml) 
+
+
+
 
 ```swift
 export PATH="$PATH:/opt/homebrew/bin"
