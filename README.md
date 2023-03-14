@@ -28,6 +28,7 @@
 1. [Database](https://github.com/logunkov/skills/blob/main/swift/swift_Database.md)
 1. [Test](https://github.com/logunkov/skills/blob/main/swift/swift_Test.md)
 1. [Developer tools](https://github.com/logunkov/skills/blob/main/swift/swift_developer_tools.md)
+1. [Libraries & Frameworks](https://github.com/logunkov/skills/blob/main/swift/swift_Libraries_%26_Frameworks.md)
 
 ## Tools
 1. [Brew](https://github.com/logunkov/skills/blob/main/tools/brew.md)
