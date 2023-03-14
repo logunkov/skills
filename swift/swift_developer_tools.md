@@ -5,10 +5,13 @@
 
 [File: swiftLint](resources/swiftlint.yml) 
 
+```
+sudo ln -s /opt/homebrew/bin/swiftlint /usr/local/bin/swiftlint
+```
+
 ```swift
-export PATH="$PATH:/opt/homebrew/bin"
 if which swiftlint > /dev/null; then
-  swiftlint
+  swiftlint --fix && swiftlint
 else
   echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
 fi
